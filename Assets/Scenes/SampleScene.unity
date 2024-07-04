@@ -373,9 +373,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6cdb923ad752614e925340b737df58f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SalDisparo: {fileID: 2107061826}
-  InstansDisparo: {fileID: 1337865630721620282, guid: bc1ebc5f66b02654a99a79e5773296bb, type: 3}
-  PowerDisparo: 50
+  salDisparo: {fileID: 2107061826}
+  instansDisparo: {fileID: 1337865630721620282, guid: bc1ebc5f66b02654a99a79e5773296bb, type: 3}
+  powerDisparo: 90
   clipdisparo: {fileID: 8300000, guid: 333a586a0b14db84cb435c7f1baad9c5, type: 3}
 --- !u!82 &391523412
 AudioSource:
