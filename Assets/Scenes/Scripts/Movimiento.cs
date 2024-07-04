@@ -5,17 +5,17 @@ using UnityEngine;
 public class Movimiento : MonoBehaviour
 {
     public float vel;
-    private Rigidbody M;
+    private Rigidbody m;
   
     void Start()
     {
-        M = GetComponent<Rigidbody>();
+        m = GetComponent<Rigidbody>();
     }
 
     
     void Update()
     {
         float movimientohorizntal = Input.GetAxisRaw("Horizontal");
-        M.velocity = new Vector2(movimientohorizntal, 0) * vel * Time.deltaTime;
+        m.velocity = new Vector2(movimientohorizntal, 0) * vel * Time.deltaTime;
     }
 }
